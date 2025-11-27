@@ -1,0 +1,50 @@
+   91  cd class_activity1
+   92  nano syscall.c
+   93  cd class_activity1
+   94  gcc syscall.c -o syscall
+   95  ls
+   96  sudo apt install gcc
+   97  gcc -o syscall.c
+   98  cd ~
+   99  sudo apt install gcc
+  100  cls
+  101  clear
+  102  sudo apt update
+  103  sudo apt install gcc -y
+  104  cd class_activty1
+  105  cd class_activity1
+  106  gcc -o syscall.c
+  107  ./syscall
+  108  ./syscall1
+  109  ./syscall
+  110  ls
+  111  nano syscall.c
+  112  ../
+  113  su - chheangkakda
+  114  sudo - chheangkakda
+  115  sudo -i -u chheangkakda
+  116  clear
+  117  ./syscall
+  118  cd class_activity1
+  119  ./syscall
+  120  ls
+  121  cd class_activity1
+  122  /syscall
+  123  ./syscall
+  124  ls
+  125  ./syscall.c
+  126  clear
+  127  ./syscall
+  128  ls
+  129  nano syscall.c
+  130  gcc syscall.c -o syscall 
+  131  ./syscall
+  132  cd class_activity1
+  133  nano copyfilesyscall.c
+  134  gcc copyfilesyscall.c -o copyfilesyscall
+  135  echo "System call copy test" > result.txt
+  136  ./copyfilesyscall
+  137  cat result.txt
+  138  history | tail -n 50> ../class_activity1/syscall_commands_history/txt
+  139  history | tail -n 50> ../class_activity1/syscall_commands_history.txt
+  140  history | tail -n 50 > ../class_activity1/syscall_commands_history.txt

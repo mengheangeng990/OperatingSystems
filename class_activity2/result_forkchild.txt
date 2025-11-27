@@ -1,0 +1,4 @@
+Parent: child created (PID = 603)
+forkchild
+forkchild.c
+result_forkchild.txt

@@ -1,0 +1,482 @@
+    1  lsb_release -a
+    2  pwd
+    3  ls
+    4  pwd
+    5  ls
+    6  clear
+    7  ssh gic-eng-mengheang@172.23.144.52
+    8  mkdir lab2
+    9  ls
+   10  cd lab2
+   11  mkdir ex1
+   12  mkdir ex2
+   13  cd ex1
+   14  mkdir etc
+   15  cd
+   16  tree
+   17  sudo snap install tree
+   18  tree lab2
+   19  tree
+   20  snap changes
+   21  sudo snap install tree
+   22  cd lab
+   23  cd lab2
+   24  cd ex1
+   25  cd
+   26  sudo snap install tree
+   27  tree
+   28  cd ls
+   29  ls
+   30  tree
+   31  ssh gic-eng-mengheang@102.168.21.87
+   32  ssh gic-eng-mengheang@192.
+   33  ssh gic-eng-mengheang@102.168.21.87
+   34  ssh gic-eng-mengheang@192.168.21.87
+   35  ls lab2
+   36  tree
+   37  scp -r lab2/ gic-eng-mengheang@192.168.21.87:/home/gic-eng-mengheang
+   38  ssh gic-eng-mengheang@192.168.21.87
+   39  ls
+   40  tree
+   41  cd lab3
+   42  tree
+   43  ls
+   44  clear
+   45  ssh gic-eng-mengheang@192.168.21.83
+   46  mkdir lab3
+   47  cd lab3
+   48  mkdir CopyingFolder
+   49  cd CopyingFolder
+   50  touch copied.txt
+   51  cd ..
+   52  mkdir Documents
+   53  cd CopyingFolder
+   54  cp copied.txt ../Documents
+   55  cd ../Documents
+   56  tree
+   57  cd lab3
+   58  cd Documents
+   59  touch copied.txt
+   60  touch one.txt
+   61  touch two.txt
+   62  touch three.txt
+   63  touch four.txt
+   64  touch five.txt
+   65  cd ~
+   66  cd lab3
+   67  tree
+   68  cd ~
+   69  tree
+   70  cd lab3
+   71  tree
+   72  midir Desktop
+   73  mkdir Desktop
+   74  cd Desktop
+   75  mkdir FrenchFolder
+   76  cd FrenchFolder
+   77  touch document_un.txt
+   78  touch document_deux.txt
+   79  touch document_trois.txt
+   80  touch document_cinq.txt
+   81  touch document_quatre.txt
+   82  cd ../lab3
+   83  cd ../../lab3
+   84  cd ~
+   85  clear
+   86  tree
+   87  mkdir class_activity1
+   88  cd class_activity1/
+   89  nano syscall.c
+   90  tree
+   91  cd class_activity1
+   92  nano syscall.c
+   93  cd class_activity1
+   94  gcc syscall.c -o syscall
+   95  ls
+   96  sudo apt install gcc
+   97  gcc -o syscall.c
+   98  cd ~
+   99  sudo apt install gcc
+  100  cls
+  101  clear
+  102  sudo apt update
+  103  sudo apt install gcc -y
+  104  cd class_activty1
+  105  cd class_activity1
+  106  gcc -o syscall.c
+  107  ./syscall
+  108  ./syscall1
+  109  ./syscall
+  110  ls
+  111  nano syscall.c
+  112  ../
+  113  su - chheangkakda
+  114  sudo - chheangkakda
+  115  sudo -i -u chheangkakda
+  116  clear
+  117  ./syscall
+  118  cd class_activity1
+  119  ./syscall
+  120  ls
+  121  cd class_activity1
+  122  /syscall
+  123  ./syscall
+  124  ls
+  125  ./syscall.c
+  126  clear
+  127  ./syscall
+  128  ls
+  129  nano syscall.c
+  130  gcc syscall.c -o syscall 
+  131  ./syscall
+  132  cd class_activity1
+  133  nano copyfilesyscall.c
+  134  gcc copyfilesyscall.c -o copyfilesyscall
+  135  echo "System call copy test" > result.txt
+  136  ./copyfilesyscall
+  137  cat result.txt
+  138  history | tail -n 50> ../class_activity1/syscall_commands_history/txt
+  139  history | tail -n 50> ../class_activity1/syscall_commands_history.txt
+  140  history | tail -n 50 > ../class_activity1/syscall_commands_history.txt
+  141  cat syscall_commands_history.txt
+  142  ls
+  143  tree
+  144  l
+  145  ls
+  146  clear
+  147  ls
+  148  rm -r ~/lab3
+  149  ls
+  150  mdkir lab3
+  151  mkdir lab3
+  152  ls
+  153  cd lab3
+  154  mkdir CopyingFolder
+  155  cd CopyingFolder
+  156  touch copied.txt
+  157  cp copied.txt ~/Documents/
+  158  cd ../lab3
+  159  cd ../../lab3
+  160  mkdir Documents
+  161  cp copied.txt ~/Documents/
+  162  cd CopyingFolder
+  163  cp copied.txt ~/Documents/
+  164  cd ~
+  165  cd lab3
+  166  cp copied.txt ~/Documents/
+  167  ls
+  168  cls
+  169  clear
+  170  cd CopyingFolder
+  171  cp copied.txt ~/Documents/
+  172  cd ~ls
+  173  cd ~
+  174  ls
+  175  cd lab3
+  176  ls
+  177  tree
+  178  cd CopyFolder
+  179  cd CopyingFolder
+  180  cp copied.txt ~/Documents/
+  181  cd ~
+  182  cd lab3
+  183  cp copied.txt ~/Documents/
+  184  cd ~
+  185  cp copied.txt ~/Documents/
+  186  clear
+  187  cd lab3
+  188  ls
+  189  cd CopyingFolder
+  190  cp copied.txt ~/Documents/
+  191  cd ~
+  192  cd lab3
+  193  rm Documents
+  194  rm -r Documents
+  195  ls
+  196  mkdir ~/Documents
+  197  ls
+  198  tree
+  199  mkdir Documents
+  200  cd CopyingFolder
+  201  cp copied.txt ~/Documents/
+  202  cd ~/Documents
+  203  touch one.txt two.txt three.txt four.txt five.txt
+  204  cp one.txt two.txt three.txt four.txt five.txt ~/lab3/CopyingFolder/
+  205  cp -r ~/lab3/CopyingFolder ~/Desktop/
+  206  cd ~/Documents
+  207  touch one_document.txt two_document.txt three_document.txt four_document.txt five_document.txt
+  208  ls
+  209  echo 1 > one_document.txt
+  210  echo 2 > two_document.txt
+  211  echo 3 > three_document.txt
+  212  echo 4 > four_document.txt
+  213  echo 5 > five_document.txt
+  214  mv one_document.txt document_un.txt
+  215  mv two_document.txt document_deux.txt
+  216  mv three_document.txt document_trois.txt
+  217  mv four_document.txt document_quatre.txt
+  218  mv five_document.txt document_cinque.txt
+  219  cd ~
+  220  ls
+  221  cd lab3
+  222  ls
+  223  tree
+  224  mkdir MoveFolder
+  225  mv document_*.txt MoveFolder/
+  226  cd Documents
+  227  mv document_*.txt MoveFolder/
+  228  engmengheang@LAPTOP-5PU50K7D:~$ cd lab3
+  229  engmengheang@LAPTOP-5PU50K7D:~/lab3$ ls
+  230  CopyingFolder  Documents
+  231  engmengheang@LAPTOP-5PU50K7D:~/lab3$ cd CopyingFolder
+  232  engmengheang@LAPTOP-5PU50K7D:~/lab3/CopyingFolder$ cp copied.txt ~/Documents/
+  233  cp: cannot create regular file '/home/engmengheang/Documents/': Not a directory
+  234  engmengheang@LAPTOP-5PU50K7D:~/lab3/CopyingFolder$ cd ~
+  235  engmengheang@LAPTOP-5PU50K7D:~$ cd lab3
+  236  engmengheang@LAPTOP-5PU50K7D:~/lab3$ rm Documents
+  237  rm: cannot remove 'Documents': Is a directory
+  238  engmengheang@LAPTOP-5PU50K7D:~/lab3$ rm -r Documents
+  239  engmengheang@LAPTOP-5PU50K7D:~/lab3$ ls
+  240  CopyingFolder
+  241  engmengheang@LAPTOP-5PU50K7D:~/lab3$ mkdir ~/Documents
+  242  engmengheang@LAPTOP-5PU50K7D:~/lab3$ ls
+  243  CopyingFolder
+  244  engmengheang@LAPTOP-5PU50K7D:~/lab3$ tree
+  245  .
+  246  └── CopyingFolder
+  247  2 directories, 1 file
+  248  engmengheang@LAPTOP-5PU50K7D:~/lab3$ mkdir Documents
+  249  engmengheang@LAPTOP-5PU50K7D:~/lab3$ cd CopyingFolder
+  250  engmengheang@LAPTOP-5PU50K7D:~/lab3/CopyingFolder$ cp copied.txt ~/Documents/
+  251  engmengheang@LAPTOP-5PU50K7D:~/lab3/CopyingFolder$ cd ~/Documents
+  252  engmengheang@LAPTOP-5PU50K7D:~/Documents$ touch one.txt two.txt three.txt four.txt five.txt
+  253  engmengheang@LAPTOP-5PU50K7D:~/Documents$ cp one.txt two.txt three.txt four.txt five.txt ~/lab3/CopyingFolder/
+  254  engmengheang@LAPTOP-5PU50K7D:~/Documents$ cp -r ~/lab3/CopyingFolder ~/Desktop/
+  255  engmengheang@LAPTOP-5PU50K7D:~/Documents$ cd ~/Documents
+  256  engmengheang@LAPTOP-5PU50K7D:~/Documents$ touch one_document.txt two_document.txt three_document.txt four_document.txt five_document.txt
+  257  engmengheang@LAPTOP-5PU50K7D:~/Documents$ ls
+  258  copied.txt         four.txt           one_document.txt    two.txt
+  259  five.txt           four_document.txt  three.txt           two_document.txt
+  260  five_document.txt  one.txt            three_document.txt
+  261  engmengheang@LAPTOP-5PU50K7D:~/Documents$ echo 1 > one_document.txt
+  262  engmengheang@LAPTOP-5PU50K7D:~/Documents$ echo 2 > two_document.txt
+  263  engmengheang@LAPTOP-5PU50K7D:~/Documents$ echo 3 > three_document.txt
+  264  engmengheang@LAPTOP-5PU50K7D:~/Documents$ echo 4 > four_document.txt
+  265  engmengheang@LAPTOP-5PU50K7D:~/Documents$ echo 5 > five_document.txt
+  266  engmengheang@LAPTOP-5PU50K7D:~/Documents$ mv one_document.txt document_un.txt
+  267  engmengheang@LAPTOP-5PU50K7D:~/Documents$ mv two_document.txt document_deux.txt
+  268  engmengheang@LAPTOP-5PU50K7D:~/Documents$ mv three_document.txt document_trois.txt
+  269  engmengheang@LAPTOP-5PU50K7D:~/Documents$ mv four_document.txt document_quatre.txt
+  270  engmengheang@LAPTOP-5PU50K7D:~/Documents$ mv five_document.txt document_cinque.txt
+  271  engmengheang@LAPTOP-5PU50K7D:~/Documents$ cd ~
+  272  engmengheang@LAPTOP-5PU50K7D:~$ ls
+  273  Desktop  Documents  class_activity1  lab2  lab3
+  274  engmengheang@LAPTOP-5PU50K7D:~$ cd lab3
+  275  engmengheang@LAPTOP-5PU50K7D:~/lab3$ ls
+  276  CopyingFolder  Documents
+  277  engmengheang@LAPTOP-5PU50K7D:~/lab3$ tree
+  278  .
+  279  ├── CopyingFolder
+  280  │   ├── copied.txt
+  281  │   ├── five.txt
+  282  │   ├── four.txt
+  283  │   ├── one.txt
+  284  │   ├── three.txt
+  285  │   └── two.txt
+  286  └── Documents
+  287  3 directories, 6 files
+  288  engmengheang@LAPTOP-5PU50K7D:~/lab3$ ^C
+  289  engmengheang@LAPTOP-5PU50K7D:~/lab3$ mkdir MoveFolder
+  290  engmengheang@LAPTOP-5PU50K7D:~/lab3$ mv document_*.txt MoveFolder/
+  291  mv: cannot stat 'document_*.txt': No such file or directory
+  292  engmengheang@LAPTOP-5PU50K7D:~/lab3$ cd Documents
+  293  engmengheang@LAPTOP-5PU50K7D:~/lab3/Documents$ mv document_*.txt MoveFolder/
+  294  mv: cannot stat 'document_*.txt': No such file or directory
+  295  engmengheang@LAPTOP-5PU50K7D:~/lab3/Documentcl
+  296  ls
+  297  rm -r ~/Desktop
+  298  rm -r ~/Documents
+  299  ls
+  300  cd ~/lab3
+  301  ls
+  302  tree
+  303  rm -r ~/lab3/CopyingFolder
+  304  rm -r ~/lab3/CopyingFolderDocuments
+  305  rm -r ~/lab3/Documents
+  306  rm -r ~/lab3/MoveFolder
+  307  ls
+  308  clear
+  309  mkdir CopyingFolder
+  310  cd CopyingFolder
+  311  touch copied.txt
+  312  cd ~/lab3
+  313  mkdir Documents
+  314  cp CopyingFolder/copied.txt Documents/
+  315  cd Documents
+  316  touch one.txt two.txt three.txt four.txt five.txt
+  317  ls
+  318  cp one.txt two.txt three.txt four.txt five.txt ../CopyingFolder/
+  319  cp -r ../CopyingFolder ./CopyingFolder_copy
+  320  touch one_document.txt two_document.txt three_document.txt four_document.txt five_document.txt
+  321  echo 1 > one_document.txt
+  322  echo 2 > two_document.txt
+  323  echo 3 > three_document.txt
+  324  echo 4 > four_document.txt
+  325  echo 5 > five_document.txt
+  326  mv one_document.txt document_un.txt
+  327  tree
+  328  cd /lab3
+  329  cd ../lab3
+  330  cd lab3
+  331  cd ./lab3
+  332  cd ~
+  333  cd lab2
+  334  cd ~
+  335  cd lab3
+  336  tree
+  337  cd Documents
+  338  mv two_document.txt document_deux.txt
+  339  mv three_document.txt document_trois.txt
+  340  mv four_document.txt document_quatre.txt
+  341  mv five_document.txt document_cinque.txt
+  342  mkdir ../MoveFolder
+  343  mv document_*.txt ../MoveFolder/
+  344  mkdir ../FrenchFolder
+  345  mv ../MoveFolder/* ../FrenchFolder/
+  346  tree ~/lab3 > ~/lab3/tree_structure_before_remove.txt
+  347  rm ../FrenchFolder/document_deux.txt
+  348  mkdir Documents/EmptyFolder
+  349  cd Documents/EmptyFolder
+  350  tree
+  351  cd ../lab3
+  352  cd ..
+  353  tree
+  354  cd ..
+  355  ls
+  356  rm -r ~/lab3
+  357  mkdir lab3
+  358  ls
+  359  tree
+  360  clear
+  361  cd lab3
+  362  mkdir CopyingFolder
+  363  cd CopyingFolder
+  364  touch copied.txt
+  365  cd ..
+  366  mkdir Documents
+  367  cp CopyingFolder/copied.txt Documents/
+  368  cd Documents
+  369  touch one.txt two.txt three.txt four.txt five.txt
+  370  cp one.txt two.txt three.txt four.txt five.txt ../CopyingFolder/
+  371  cp -r ../CopyingFolder ../CopyingFolder_copy
+  372  touch one_document.txt two_document.txt three_document.txt four_document.txt five_document.txt
+  373  echo 1 > one_document.txt
+  374  echo 2 > two_document.txt
+  375  echo 3 > three_document.txt
+  376  echo 4 > four_document.txt
+  377  echo 5 > five_document.txt
+  378  mv one_document.txt document_un.txt
+  379  mv two_document.txt document_deux.txt
+  380  mv three_document.txt document_trois.txt
+  381  mv four_document.txt document_quatre.txt
+  382  mv five_document.txt document_cinque.txt
+  383  mkdir ../MoveFolder
+  384  mv document_*.txt ../MoveFolder/
+  385  mkdir ../FrenchFolder
+  386  mv ../MoveFolder/* ../FrenchFolder/
+  387  tree ~/lab3 > ~/lab3/tree_structure_before_remove.txt
+  388  rm ../FrenchFolder/document_deux.txt
+  389  mkdir EmptyFolder
+  390  cd EmptyFolder
+  391  touch deletefile.txt
+  392  mkdir DeleteFolder
+  393  rm -r DeleteFolder
+  394  cd ..
+  395  rm -r EmptyFolder
+  396  rm ../FrenchFolder/*.txt
+  397  tree ~/lab3 > ~/lab3/tree_structure_after_remove.txt
+  398  history > ~/lab3/wildcardex1_command_history.txt
+  399  cd ..
+  400  tree
+  401  cd ..
+  402  ls
+  403  cd lab3
+  404  ls
+  405  cd ~/Desktop
+  406  cd ..
+  407  cd ~/Desktop
+  408  rm -r ~/lab3
+  409  ls
+  410  clear
+  411  mkdir ~/lab3
+  412  cd ~/lab3
+  413  mkdir CopyingFolder
+  414  cd CopyingFolder
+  415  touch copied.txt
+  416  cd ..
+  417  mkdir Documents
+  418  cp CopyingFolder/copied.txt Documents/
+  419  cd Documents
+  420  touch one.txt two.txt three.txt four.txt five.txt
+  421  cp one.txt two.txt three.txt four.txt five.txt ../CopyingFolder/
+  422  mkdir ../lab3/Desktop
+  423  cp -r ../CopyingFolder ../lab3/Desktop/
+  424  cd ..
+  425  ls
+  426  rm -r ~/lab3
+  427  cd ..
+  428  rm -r ~/lab3
+  429  ls
+  430  mkdir ~/lab3
+  431  cd ~/lab3
+  432  mkdir CopyingFolder
+  433  cd CopyingFolder
+  434  touch copied.txt
+  435  cd ..
+  436  mkdir CopyingFolder
+  437  cd CopyingFolder
+  438  touch copied.txt
+  439  cd ..
+  440  mkdir Documents
+  441  cp CopyingFolder/copied.txt Documents/
+  442  cd Documents
+  443  touch one.txt two.txt three.txt four.txt five.txt
+  444  cp one.txt two.txt three.txt four.txt five.txt ../CopyingFolder/
+  445  mkdir ../Desktop
+  446  cp -r ../CopyingFolder ../Desktop/
+  447  touch one_document.txt two_document.txt three_document.txt four_document.txt five_document.txt
+  448  echo 1 > one_document.txt
+  449  echo 2 > two_document.txt
+  450  echo 3 > three_document.txt
+  451  echo 4 > four_document.txt
+  452  echo 5 > five_document.txt
+  453  mv one_document.txt document_un.txt
+  454  mv two_document.txt document_deux.txt
+  455  mv three_document.txt document_trois.txt
+  456  mv four_document.txt document_quatre.txt
+  457  mv five_document.txt document_cinque.txt
+  458  mkdir ../MoveFolder
+  459  mv document_*.txt ../MoveFolder/
+  460  mkdir ../Desktop/FrenchFolder
+  461  mv ../MoveFolder/* ../Desktop/FrenchFolder/
+  462  tree ~/lab3 > ~/lab3/tree_structure_before_remove.txt
+  463  rm ../Desktop/FrenchFolder/document_deux.txt
+  464  mkdir Documents/EmptyFolder
+  465  mkdir Emptyfolder
+  466  cd Documents/EmptyFolder
+  467  touch deletefile.txt
+  468  mkdir DeleteFolder
+  469  cd EmptyFolder
+  470  touch deletefile.txt
+  471  mkdir DeleteFolder
+  472  ls
+  473  mv Emptyfolder EmptyFolder
+  474  cd EmptyFolder
+  475  touch deletefile.txt
+  476  mkdir DeleteFolder
+  477  rm -r DeleteFolder
+  478  cd ..
+  479  rm -r EmptyFolder
+  480  rm ../Desktop/FrenchFolder/*.txt
+  481  tree ~/lab3 > ~/lab3/tree_structure_after_remove.txt
+  482  history > ~/lab3/wildcardex1_command_history.txt

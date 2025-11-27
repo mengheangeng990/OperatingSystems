@@ -1,0 +1,15 @@
+  479  rm -r EmptyFolder
+  480  rm ../Desktop/FrenchFolder/*.txt
+  481  tree ~/lab3 > ~/lab3/tree_structure_after_remove.txt
+  482  history > ~/lab3/wildcardex1_command_history.txt
+  483  cd ~
+  484  cd lab3 tree
+  485  cd lab3
+  486  tree
+  487  mkdir class_activity2
+  488  cd class_activity2
+  489  gcc -o forkchild forkchild.c
+  490  nano forkchild.c
+  491  gcc -o forkchild forkchild.c
+  492  ./forkchild > result_forkchild.txt
+  493  history | tail -n 15 > command_used_forkchild.txt

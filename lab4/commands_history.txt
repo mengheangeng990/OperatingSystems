@@ -1,0 +1,50 @@
+  710  wsl -u root
+  711  sudo apt install wsl
+  712  wsl -u root
+  713  ls
+  714  sudo -i
+  715  ls
+  716  cd lab4
+  717  tree
+  718  cd ..
+  719  rm -r lab4
+  720  ls
+  721  clear
+  722  ls
+  723  mkdir lab4
+  724  cd lab4
+  725  ls -la > contents.txt
+  726  ls -la contents.txt
+  727  sort contents.txt >> contents-sorted.txt
+  728  tail -n 5 contents-sorted.txt
+  729  mkdir -p ~/Documents
+  730  tail -n 10 /etc/passwd > ~/Documents/passwd_last10.txt
+  731  ls -l ~/Documents/passwd_last10.txt
+  732  wc -w < contents.txt >> ~/field2.txt
+  733  tail -n 1 ~/field2.txt
+  734  cd
+  735  ls
+  736  rm -r lab4
+  737  ls
+  738  clear
+  739  mkdir lab4
+  740  cd lab4
+  741  ls -l > ~/lab4/contents.txt
+  742  ls -l ~/lab4/contents.txt
+  743  cat ~/lab4/contents.txt
+  744  sort ~/lab4/contents.txt >> ~/lab4/contents-sorted.txt
+  745  ls -l ~/lab4/contents-sorted.txt
+  746  cat ~/lab4/contents-sorted.txt
+  747  mkdir -p ~/Documents
+  748  tail -n 10 /etc/passwd > ~/Documents/newfile.txt
+  749  ls -l ~/Documents/newfile.txt
+  750  cat ~/Documents/newfile.txt
+  751  wc -w < ~/lab4/contents.txt >> ~/lab4/file2.txt
+  752  cat ~/lab4/file2.txt
+  753  head -n 5 /etc/passwd | sort -r
+  754  head -n 5 /etc/passwd | sort -r > ~/lab4/passwd-head-sorted-rev.txt
+  755  ls -l ~/lab4/passwd-head-sorted-rev.txt
+  756  cat ~/lab4/passwd-head-sorted-rev.txt
+  757  tail -n 9 ~/lab4/contents.txt | wc -m
+  758  find /usr/share -type f -name test | wc -l
+  759  history | tail -n 50 > ~/lab4/commands_history.txt
