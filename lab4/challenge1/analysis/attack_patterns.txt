@@ -1,0 +1,27 @@
+Top 5 most active IPs:
+     26 192.168.1.105
+      8 45.33.2.79
+      8 203.0.113.42
+      8 198.51.100.22
+
+Request frequency by hour:
+     50 08
+
+Most targeted URLs:
+      8 /login
+      8 /
+      1 /wp-login.php
+      1 /wp-includes/
+      1 /wp-content/uploads/
+      1 /wp-config.php
+      1 /wp-admin
+      1 /style.css
+      1 /sitemap.xml
+      1 /script.js
+
+IPs with >10 requests per minute:
+
+Repeated login page attempts:
+      8 203.0.113.42
+
+

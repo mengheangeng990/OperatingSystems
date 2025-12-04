@@ -1,0 +1,18 @@
+Suspicious user agents:
+45.33.2.79 - - [15/Oct/2023:08:14:33 +0000] "GET / HTTP/1.1" 200 1456 "Mozilla/5.0 (compatible; BadBot/1.0)"
+45.33.2.79 - - [15/Oct/2023:08:16:33 +0000] "GET /wp-login.php HTTP/1.1" 200 2341 "Mozilla/5.0 (ExploitScanner)"
+45.33.2.79 - - [15/Oct/2023:08:19:12 +0000] "GET /?cmd=whoami HTTP/1.1" 404 321 "Mozilla/5.0 (ExploitScanner)"
+45.33.2.79 - - [15/Oct/2023:08:22:12 +0000] "GET /phpmyadmin HTTP/1.1" 404 321 "Mozilla/5.0 (ExploitScanner)"
+45.33.2.79 - - [15/Oct/2023:08:25:12 +0000] "GET /?exec=/bin/bash HTTP/1.1" 400 321 "Mozilla/5.0 (ExploitScanner)"
+192.168.1.105 - - [15/Oct/2023:08:25:33 +0000] "GET /robots.txt HTTP/1.1" 200 123 "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+45.33.2.79 - - [15/Oct/2023:08:28:12 +0000] "GET /.htaccess HTTP/1.1" 403 321 "Mozilla/5.0 (ExploitScanner)"
+45.33.2.79 - - [15/Oct/2023:08:31:12 +0000] "GET /wp-includes/ HTTP/1.1" 403 321 "Mozilla/5.0 (ExploitScanner)"
+45.33.2.79 - - [15/Oct/2023:08:34:12 +0000] "GET /?action=rm+-rf+ HTTP/1.1" 400 321 "Mozilla/5.0 (ExploitScanner)"
+
+Probing sensitive paths:
+198.51.100.22 - - [15/Oct/2023:08:14:12 +0000] "GET /wp-admin HTTP/1.1" 403 291 "Mozilla/5.0 (X11; Linux x86_64)"
+198.51.100.22 - - [15/Oct/2023:08:17:05 +0000] "GET /admin HTTP/1.1" 403 291 "Mozilla/5.0 (X11; Linux x86_64)"
+198.51.100.22 - - [15/Oct/2023:08:20:05 +0000] "GET /.git/config HTTP/1.1" 404 291 "Mozilla/5.0 (X11; Linux x86_64)"
+
+Suspicious query parameters:
+45.33.2.79 - - [15/Oct/2023:08:19:12 +0000] "GET /?cmd=whoami HTTP/1.1" 404 321 "Mozilla/5.0 (ExploitScanner)"

@@ -1,0 +1,18 @@
+Failed login attempts (401/403):
+203.0.113.42 - - [15/Oct/2023:08:13:01 +0000] "POST /login HTTP/1.1" 401 321 "python-requests/2.28.1"
+198.51.100.22 - - [15/Oct/2023:08:14:12 +0000] "GET /wp-admin HTTP/1.1" 403 291 "Mozilla/5.0 (X11; Linux x86_64)"
+203.0.113.42 - - [15/Oct/2023:08:15:22 +0000] "POST /login HTTP/1.1" 401 321 "python-requests/2.28.1"
+198.51.100.22 - - [15/Oct/2023:08:17:05 +0000] "GET /admin HTTP/1.1" 403 291 "Mozilla/5.0 (X11; Linux x86_64)"
+203.0.113.42 - - [15/Oct/2023:08:18:01 +0000] "POST /login HTTP/1.1" 401 321 "python-requests/2.28.1"
+198.51.100.22 - - [15/Oct/2023:08:23:05 +0000] "GET /wp-content/uploads/ HTTP/1.1" 403 291 "Mozilla/5.0 (X11; Linux x86_64)"
+203.0.113.42 - - [15/Oct/2023:08:24:01 +0000] "POST /login HTTP/1.1" 401 321 "python-requests/2.28.1"
+203.0.113.42 - - [15/Oct/2023:08:27:01 +0000] "POST /login HTTP/1.1" 401 321 "python-requests/2.28.1"
+45.33.2.79 - - [15/Oct/2023:08:28:12 +0000] "GET /.htaccess HTTP/1.1" 403 321 "Mozilla/5.0 (ExploitScanner)"
+45.33.2.79 - - [15/Oct/2023:08:31:12 +0000] "GET /wp-includes/ HTTP/1.1" 403 321 "Mozilla/5.0 (ExploitScanner)"
+203.0.113.42 - - [15/Oct/2023:08:33:01 +0000] "POST /login HTTP/1.1" 401 321 "python-requests/2.28.1"
+198.51.100.22 - - [15/Oct/2023:08:35:05 +0000] "GET /wp-config.php HTTP/1.1" 403 291 "Mozilla/5.0 (X11; Linux x86_64)"
+
+Count per IP:
+      6 203.0.113.42
+      4 198.51.100.22
+      2 45.33.2.79

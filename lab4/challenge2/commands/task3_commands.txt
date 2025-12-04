@@ -1,0 +1,1 @@
+cut -d "," -f4 challenge2/data/employees.txt | cut -d ":" -f2 | grep "^j" > challenge2/results/task3_j_emails.txt
