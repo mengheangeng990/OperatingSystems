@@ -1,0 +1,28 @@
+#!/bin/bash
+
+# 1. Define the typing function
+type_effect() {
+    text="$1"
+    # Adjust this value to speed up (0.01) or slow down (0.1)
+    delay=0.03
+
+    # Loop through each character
+    for (( i=0; i<${#text}; i++ )); do
+        echo -n "${text:$i:1}"
+        sleep $delay
+    done
+    echo "" # Print a new line at the end
+}
+
+# 2. Clear the screen for a clean look (Optional)
+clear
+
+# 3. Call the function with your welcome message
+echo "+------------------------------------------------+"
+type_effect "   System:  Mi 10 WSL"
+type_effect "   User:    $(whoami)"
+type_effect "   Date:    $(date)"
+echo ""
+type_effect "   > Initializing interface..."
+type_effect "   > Welcome back, Commander."
+echo "+------------------------------------------------+"

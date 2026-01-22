@@ -131,3 +131,135 @@ git commit -m "Initial push of class activities and labs"
 git branch -M main
 git push -u origin main
 git config --global user.name "Eng_Mengheang"
+git init
+git add .
+git commit -m "Initial push of class activities and labs"
+git branch -M main
+git push -u origin main
+git remote -v
+git push -u origin main
+git config --global user.email "mengheangeng990@gmail.com"
+git config --global user.name "mengheang990"
+git commit -m "first commit"
+git init
+git branch
+git add .
+git commit -m "first commit"
+git push -u origin main
+git remote add origin https://github.com/mengheangeng990/OperatingSystems.git
+git remote remove origin
+git remote -v
+git remote add origin https://github.com/mengheangeng990/OperatingSystems.git
+git init
+git add .
+git commit -m "Commit"
+git remote -v
+git push -u origin main
+git init
+git add .
+git commit -m "Commit"
+git push -u origin main
+mkdir lab1
+git add .
+git commit -m "First commit"
+git init
+git add .
+ls
+git add lab1
+git commit -m "Commit"
+git push
+ls
+git remote -v
+git add lab1
+git commit -m "Commit"
+cd lab1
+touch README.md
+cd
+git add lab1
+git commit -m "Commit"
+git push
+clear
+cd lab3
+cd 
+cd lab4
+tree
+cd 
+clear
+cd lab4
+tree
+mkdir challenge1
+cd challenge1
+mkdir orginal_log
+cd orginal_log
+ls
+cd lab4
+tree
+cd !
+cd ~
+clear
+ls
+cd lab3
+cd ..
+cd lab4
+tree
+cd ..
+cd lab4
+git remote -v
+git branch
+git add .
+git commit -m "Add/update lab4 files"
+git push -u origin main
+cd lab4
+cd ..
+thop
+nano cup-intensive.py
+nano cup-intensive.py &
+htop
+ls
+/home
+clear
+mkdir script-lab
+cd script-lab/
+ls
+nano helloworld
+cat helloworld 
+nano helloworld
+cat helloworld 
+nano helloworld
+cat helloworld 
+chmod +x helloworld
+./helloworld
+nano helloworld
+./helloworld
+clear
+export PATH=~/script-lab:$PATH
+helloworld
+echo 'export PATH=~/script-lab:$PATH' >> ~/.bashrc
+source ~/.bashrc
+echo 'helloworld' >> ~/.bashrc
+exit
+ls
+cd script-lab/
+cd ..
+nano .bashrc
+cd script-lab/
+nona helloworld 
+nano helloworld 
+exit
+cd script-lab/
+nano helloworld 
+exit
+cd script-lab/
+nano helloworld 
+cd script-lab/
+nano helloworld 
+exit
+cd script-lab/
+nano helloworld 
+exit
+cd script-lab/
+nano helloworld 
+exit
+ls
+cd sheel_scripts/
+ls
